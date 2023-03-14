@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 const stripe = require('stripe')(stripe_key);
 let path=require("path")
 // db
-mongoose.connect('mongodb+srv://FawadRahman55:<C8vpTLoXYl58tiRF>@cluster0.apjzjsq.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://FawadRahman55:C8vpTLoXYl58tiRF@cluster0.apjzjsq.mongodb.net/?retryWrites=true&w=majority')
 
 // app 
 let key = 'fawdhawdjajdalkd;alksvhasoijvw9ru209842-id-0akczklcnalcmalkcmalxsmc;alca;lkca'
